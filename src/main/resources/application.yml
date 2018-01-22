@@ -1,0 +1,28 @@
+# 如果部署到 tomcat 中 就没有  下面的了 所以给他取消掉
+#server:
+#  context-path: /springboot
+
+
+
+
+spring:
+  thymeleaf:
+       prefix: classpath:/templates/
+
+
+  datasource:
+      data-source: com.mysql.jdbc.Driver /
+     # driver-class-name: com.mysql.jdbc.Driver
+#      url: jdbc:mysql://127.0.0.1:3306/db_person?3useUnicode=true&characterEncoding=utf8
+      url: jdbc:mysql://39.106.203.14:3306/db_person
+      username: root
+#      password: root
+      password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+
+
+

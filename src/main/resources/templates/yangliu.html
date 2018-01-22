@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta charset="UTF-8"/>
+
+  <title>怎么样</title>
+ </head>
+ <body>
+
+ <img src="png/dt.gif" alt="ahah"/>  &nbsp; <img src="./png/dt2.gif" alt="心情好"/><br/>
+  老婆 老婆 !!!!! <p> 老婆 今天晚上吃啥呀  </p><br/>
+  <p th:text="${hello}"></p><br/>
+ <video width="602px" height="345px" controls="controls">
+  <source src="video/shipin.mp4" type="video/mp4"></source>
+  <source src="video/shipin.jpg" type="video/jpg"></source>
+  your browser does not support the video tag
+ </video>
+ <h3>  呵呵嘿嘿老婆 老婆 晚上吃啥   </h3>
+ <form  action="person"  method="post"  ><br/>
+  晚上吃啥<input type="text" name="name"/><br/>
+ 年龄:<input type="number" name="age" /><br/>
+  <input type="submit" value="提交"/><br/>
+
+
+ </form>
+ </body>
+</html>
